@@ -21,7 +21,7 @@ php artisan make:model-api Model --api=API\\NameOfAPI --auth
 
 ## Configure
 
-### Use fillable in models
+#### Use fillable in models
 Is very important setup the fillable because this variable allow recognize the fields will have your model.
 
 ```sh
