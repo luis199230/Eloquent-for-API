@@ -1,0 +1,16 @@
+<?php
+
+namespace DummyNamespace;
+
+use Madeweb\Eloquent\API\Models\BaseModel;
+
+class DummyModelClass extends BaseModel
+{
+    /**
+     * DummyModelClass constructor.
+     */
+    public function __construct()
+    {
+        parent::__construct(DummyAPIClass::class);
+    }
+}
