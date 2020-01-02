@@ -2,7 +2,7 @@
     "name": "madeweb/eloquent-api",
     "description": "An Eloquent model with support for API, is a wrapper for use endpoints how to model entities",
     "type": "library",
-    "license": "GLP-3",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "Luis Benavides",
