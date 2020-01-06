@@ -3,6 +3,11 @@
     "description": "An Eloquent model with support for API, is a wrapper for use endpoints how to model entities",
     "type": "library",
     "license": "GPL-3.0-only",
+    "keywords": [
+        "api",
+        "microservices",
+        "eloquent"
+    ],
     "authors": [
         {
             "name": "Luis Benavides",
@@ -17,5 +22,12 @@
             "Madeweb\\Eloquent\\API\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Madeweb\\Eloquent\\API\\EloquentAPIServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
 }
