@@ -1,5 +1,5 @@
 # Eloquent-for-API
-
+![Packagist](https://img.shields.io/packagist/dm/luis199230/eloquent-for-api?style=plastic)
 ![GitHub stars](https://img.shields.io/github/stars/luis199230/eloquent-for-api?style=plastic)
 
 This package allow use models and relationships using resources of API how to entities.
