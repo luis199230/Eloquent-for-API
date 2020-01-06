@@ -7,6 +7,7 @@ This package allow use models and relationships using resources of API how to en
 ```sh
 composer require madeweb/eloquent-api
 ```
+
 Generate model wrapper for call to api
 
 ```sh

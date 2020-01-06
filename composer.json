@@ -17,5 +17,12 @@
             "Madeweb\\Eloquent\\API\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Madeweb\\Eloquent\\API\\EloquentAPIServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
 }
